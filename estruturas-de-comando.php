@@ -85,3 +85,11 @@ for($contador = 0; $contador < 10; $contador++)
 }
 
 ?>
+/* foreach, enquanto o for precisa de comandos especificos o foreach acessa todos os os itens como vetores do array, entao voce nao precisa especificar quantos dados vc quer que ele colete, ele irá coletar todos os dados dos vetores do array.
+ Exemplo:
+    $opção = array(1, 2, 3, 4, 5);
+foreach($opção as $objeto)
+{
+echo $objeto;
+}
+?>
